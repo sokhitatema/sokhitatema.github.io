@@ -15,7 +15,10 @@
 
     <!-- ----------------------Boostrap icons ---------------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-    <!-- --------------------------------------------------------- -->
+    <!-- ----------------AOS ANIMASI CSS----------------------------------------- -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- ------------------------------TERAKHIR AOS -------------------------->
 
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -58,7 +61,7 @@
       <img src="img/sokhi1.jpg" alt="Sokhi Tatema Telaumbanua" width="200px" class="rounded-circle img-thumbnail" />
 
       <h1 class="display-4">Sokhi Tatema Telaumbanua</h1>
-      <p class="lead">Mahasiswa</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -79,11 +82,11 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down-right" data-aos-duration="1000">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, id est laborum.</p>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod ex ea commodo nt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
@@ -108,37 +111,55 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <!-- ---------------------------------------------------------------- -->
+          <!-- -------------------isi foto------------------------------------------------- -->
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500">
               <img src="img/projects/foto7.jpg" class="card-img-top" alt="projects 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <!-- ----------------------------------------------------------------- -->
+          <!-- -----------------------kosong isi foto--------------------------------------------- -->
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/login.png" class="card-img-top" alt="projects 2" />
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="50">
+              <img src="img/projects/foto7.jpg" class="card-img-top" alt="projects 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------- isi foto-------------------------------------------- -->
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+              <img src="img/projects/foto7.jpg" class="card-img-top" alt="projects 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------- isi foto--------------------------------------- -->
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="200">
+              <img src="img/projects/foto7.jpg" class="card-img-top" alt="projects 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
 
-          <!-- ------------------------------------------------------------------ -->
+          <!-- ----------------------isi foto------------------------------------------ -->
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/foto5.jpg" class="card-img-top" alt="projects 3" />
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="300">
+              <img src="img/projects/foto7.jpg" class="card-img-top" alt="projects 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <!-- ----------------------------------------------------------- -->
+          <!-- ------------------------isi foto------------------------------------------ -->
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="400">
               <img src="img/projects/tugas.png" class="card-img-top" alt="projects 4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -146,25 +167,6 @@
             </div>
           </div>
 
-          <!-- -------------------------------------------------------------- -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/foto7.jpg" class="card-img-top" alt="projects 5" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- -------------------------------------------------------------- -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/layar.png" class="card-img-top" alt="projects 6" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
           <!-- ----------------------------------------------------------- -->
         </div>
       </div>
@@ -178,6 +180,79 @@
     </section>
 
     <!-- Akhir Projects -->
+
+    <!--------------------------------------- GALERRY -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/2.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <!-- ------------2--------------------------- -->
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/alberthus.jpg" alt="gambar 2" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <!-- ---------------------3---------------------- -->
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/7.jpg" alt="gambar 3" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <!-- -------------------4-------------------------- -->
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/3.jpg" alt="gambar 4" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <!-- ----------------------------5---------------------- -->
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/17.jpg" alt="gambar 5" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <!-- --------------6---------------------------- -->
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/8.jpg" width="200%" alt="gambar 6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <!-- --------------------7------------------------- -->
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/16.jpg" alt="gambar 6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <!-- ----------------8----------------------- -->
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/14.jpg" alt="gambar 8" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <!-- --------------------9------------------------- -->
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/13.jpg" alt="gambar 9" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <!-- --------------------10------------------------- -->
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/5.jpg" alt="gambar 10" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------------------------------- AKHIR GALERRY -->
 
     <!-- CONTACT -->
     <section id="contact">
@@ -238,6 +313,34 @@
     <footer class="bg-primary text-white text-center pb-5">
       <p>Created With <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/alberthus98/" class="text-white fw-bold">Sokhi Tatema</a></p>
     </footer>
+    <!-- ----------------------JAVA SCRIPT AOS------------------------------------ -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImg = document.querySelectorAll(".gallery-img");
+      galleryImg.forEach((img, i) => {
+        img.dataset.aos = "zoom-in";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Mahasiswa" });
+      gsap.from(".jumbotron img", { duration: 1, y: -100, opacity: 0, ease: "bounce" });
+      gsap.from(".navbar", { duration: 1.5, y: -100, opacity: 0, ease: "slow" });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
+    </script>
+
+    <!-- ----------------------------------------AKHIR AOS SCRIPT -->
     <!-- Akhir Footer -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
